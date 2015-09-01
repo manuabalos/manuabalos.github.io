@@ -1,18 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
+
 #menu{
-	background-color: rgba(0,0,0,0);
+	background: url(img/background.jpg) center;
 	border-color: transparent;
+	border-bottom: 0.1em solid rgba(255, 255, 255, 0.8);
 }
 
 #menu-elementos li a{
+	text-align: center;
 	color: white;
 }
 
 #menu-elementos li a:hover{
-	border-bottom: 1px solid white;
-	padding-bottom: 2px;
+	background: rgba(255, 255, 255, 0.3);
 }
 
 header{
@@ -33,9 +35,9 @@ header{
 
 .header-titulo{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: bold;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 }
 
 .header-texto{
@@ -43,7 +45,7 @@ header{
 	font-size: 20px;
 	font-style: italic;
 	color: white;
-letter-spacing: 2px;
+	letter-spacing: 2px;
 }
 
 #header-btn{
@@ -56,8 +58,32 @@ letter-spacing: 2px;
 }
 
 #header-btn:hover{
-		background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.2);
 
+}
+
+#imgAboutManu{
+	margin: 0 auto;
+}
+#aboutme-title{
+	text-align: center;
+}
+.aboutme{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#skills{
+	background-color: #F2F2F2;
+}
+
+.hr-skills{
+	border: 1px solid;
+	border-color: rgba(255,255,255,0.8);
+}
+
+#skills-title{
+	text-align: center;
 }
 
 @media screen and (max-width: 990px){
