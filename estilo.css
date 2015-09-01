@@ -87,7 +87,7 @@ header{
 }
 
 #skills-text{
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .centrado{
@@ -96,6 +96,11 @@ header{
 
 #centrarImg{
 	margin: 0 auto;
+}
+
+a, a:link, a:hover, a:visited{
+	text-decoration: none;
+	color: black;
 }
 
 @media screen and (max-width: 990px){
