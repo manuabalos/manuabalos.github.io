@@ -1,5 +1,6 @@
 $(document).ready(function() {    
 
+  // EFECTO SLIDER MENU
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -13,4 +14,11 @@ $(document).ready(function() {
     }
   });
 
+  // EFECTO HEADER TITLE
+
+  $("#header-box").animate({
+    opacity: '0',
+      top: '-=40px',
+      opacity: '1',
+  },700);
 });
