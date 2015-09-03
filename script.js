@@ -17,8 +17,7 @@ $(document).ready(function() {
   // EFECTO HEADER TITLE
 
   $("#header-box").animate({
-    opacity: '0',
       top: '-=40px',
       opacity: '1',
-  },700);
+  }, 700);
 });
