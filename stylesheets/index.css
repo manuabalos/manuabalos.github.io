@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+/* GENERAL */
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax-window-quote{
+	min-height: 200px;
+    background: transparent;
+}
+
+.img-parallax{
+	width: 100%;
+}
+
+a, a:link, a:hover, a:visited, a.about-me-ironhack-a:hover, a.about-me-emergya-a:hover, a.projects-a:hover{
+	color: black;
+    text-decoration: none;
+}
+
+/* PARALLAX HEADER */
+
+#menu{
+	background: url(img/background.jpg) center;
+	border-color: transparent;
+	border-bottom: 0.1em solid rgba(255, 255, 255, 0.8);
+	display: none;
+}
+
+#menu-items li a{
+	text-align: center;
+	color: white;
+}
+
+#menu-items li a:hover{
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.header{
+	min-height: 640px;
+}
+
+.header-center{
+	width: 100%;
+	text-align: center;
+	margin-top: 3%;
+	color: white;
+	display: none;
+}
+
+.header-title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.header-text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.header-text-name{
+	font-size: 24px;
+}
+
+#header-btn{
+	background-color: transparent;
+	color: white;
+	width: 200px;
+	border-radius: 0px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 2%;
+}
+
+#header-btn:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+
+.img-photo-manu{
+	width:220px;
+}
+
+/* PARALLAX - ABOUT ME */
+.parallax-about-me{
+	background: rgba(255, 255, 255, 0.3);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5%;
+	padding-bottom: 7%;
+}
+
+.about-me-title{
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.about-me-text{
+	background-color: rgba(255,255,255,0.6);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: justify-all;
+	padding: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+}
+
+.hr-about-me, .hr-about-me-ironhack, .hr-about-me-emergya{
+	border-color: black;
+}
+
+.hr-about-me-ironhack, .hr-about-me-emergya{
+	margin-top: 10px;
+}
+
+.about-me-box{
+	margin-bottom: 10px;
+}
+
+.about-me-ironhack, .about-me-emergya{
+	padding: 15px;
+}
+
+.about-me-ironhack:hover, .about-me-emergya:hover{
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.logo-ironhack, .logo-emergya{
+	width: 175px;
+}
+
+.media-heading{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* PARALLAX QUOTE FRANK OCEAN */
+
+.quote-frank-ocean{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+	background-color: rgba(255,255,255,0.5);
+	border-left: 5px solid rgba(255,255,255,0.2);
+	border-right: 5px solid rgba(255,255,255,0.2);
+}
+
+.quote-frank-ocean > footer{
+	color: rgba(255,255,255,0.6);
+}
+
+/* PARALLAX QUOTE SKILLS */
+
+.parallax-skills{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5%;
+	padding-bottom: 7%;
+}
+
+.hr-skills{
+	border-color: white;
+}
+
+.skills-title{
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.div-logo{
+	background-color: rgba(255,255,255,0.5);
+	padding: 15px 15px 15px 15px;
+}
+
+.div-logo >img{
+	display: block;
+	margin: 0 auto;
+}
+
+.logo-standard{
+	height: 95px;
+	width: 95px;
+}
+
+
+.logo-css{
+	height: 95px;
+	width: 70px;
+}
+
+.logo-js{
+	height: 95px;
+	width: 95px;
+}
+
+.logo-rails{
+	width: 85px;
+	height: 95px;
+}
+
+.logo-title{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+
+/* PARALLAX PROJECTS */
+.parallax-projects{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5%;
+	padding-bottom: 7%;
+}
+
+.hr-projects{
+	border-color: white;
+}
+
+.projects-title{
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.row-project{
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* CONTACT */
+.container-contact{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.hr-contact{
+	border-color: black;
+}
+
+.contact-title{
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: black;
+}
+
+.center-contact{
+	margin: 40px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.title-contact-h4{
+	font-weight: bold;
+	font-size: 20px;
+}

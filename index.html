@@ -3,274 +3,282 @@
     <head>
         <meta charset="UTF-8">
         <title>Manuel Ábalos Serrano</title>    
-        <link rel="stylesheet" type="text/css" href="estilo.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Theme CSS -->
+    	<link href="stylesheets/creative.css" rel="stylesheet">
     </head>
     <body>
 
-    	<!-- Barra de Navegación -->
-		<nav class="navbar navbar-default" id="menu">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <span class="navbar-brand" ></span>
-		    </div>
+    	<!-- HEADER BIO - MANUEL ABALOS SERRANO -->
+    	<div class="header img-parallax parallax-window" data-parallax="scroll" data-image-src="images/background-header.jpg">
+    		<!-- Barra de Navegación -->
+			<nav class="navbar navbar-default" id="menu">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <span class="navbar-brand" ></span>
+			    </div>
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right" id="menu-elementos">
-		            <li><a href="#aboutme" class="ancla">ABOUT ME</a></li>
-		            <li><a href="#skills">SKILLS</a></li>
-		            <li><a href="#achievements">ACHIEVEMENT</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-		        </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-		<!-- Fin de Barra de Navegación -->
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right" id="menu-items">
+			            <li><a href="#aboutme" class="ancla">ABOUT ME</a></li>
+			            <li><a href="#skills">SKILLS</a></li>
+			            <li><a href="#projects">PROJECTS</a></li>
+	                    <li><a href="#contact">CONTACT</a></li>
+			        </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<!-- Fin de Barra de Navegación -->
 
-		<!-- Sección Header Principal -->
-        <header>
-            <div class="container">
+			<div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 header-centrado" id="header-box">
-                        <h1 class="header-titulo">
-                        	<img class="img img-circle" width="160px" src="img/fotoManu.jpg" alt="Manu-img-circle">
-                        	<p><small class="header-texto">Manuel Ábalos Serrano</small><p>
-                        	<small class="header-texto">Front-end and Back-end Web Developer, with a passion for</small><p>RUBY ON RAILS</p></h1>
-                        <a href="doc/CV.pdf" class="btn-header-link" target="_blank"><buttom class="header-btn btn btn-default btn-lg" id="header-btn">Curriculum Vitae</buttom></a>
+                    <div class="col-xs-12 col-sm-12 col-md-12 header-center" id="header-box">
+                        <h1 class="header-title">
+                    		<img class="img img-circle img-photo-manu" src="images/photo-manu.jpg" alt="img-photo-manu-circle">
+                        	<p><small class="header-text header-text-name"><strong>Manuel Ábalos Serrano</strong></small><p>
+                        	<small class="header-text">Front-end and Back-end Web Developer, with a passion for</small><p>RUBY ON RAILS</p>
+                        </h1>
+
+                        <a href="doc/CV.pdf" class="btn-header-link" target="_blank">
+                        	<buttom class="header-btn btn btn-default btn-lg" id="header-btn">Curriculum Vitae</buttom>
+                        </a>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- Fin de Sección Header Principal -->
 
-        <!-- Sección About me -->
-		<div class="container-fluid" id="aboutme">
-		    <hr>
-		    <div class="row">
-		        <div class="col-lg-12">
-		        	<img class="img img-responsive" width="900px" src="img/aboutManu.png" alt="about Manu" id="imgAboutManu">
-		        	<h3 id="aboutme-title">ABOUT ME</h3>
-		            <h4 class="aboutme">My full name is Manuel Ábalos Serrano. Actually, I'm living in Madrid but I was born in Linares (Jaén). I'm a Front-end and Back-end Web Developer (Full-stack). I’m focused on the world of programming which fascinates me, I would like to improve my skills as a Full-Stack Web Developer with Ruby on Rails.</h4>
-		        </div>
-		    </div>
-		    <hr>
-		</div>
-		<!-- Fon de Sección About me -->
+    	</div>
 
-		<!-- Sección Skills -->
-		<div class="container-fluid" id="skills">
-		    <hr class="hr-skills">
-		    <div class="row">
-		    	<h3 id="skills-title">SKILLS</h3>
-		    	<div class="col-lg-12">
-		        	<div class="row" id="skills-text">
-		        		<div class="col-lg-4 col-lg-offset-1">
-		        				<center><h1><small>Front-end</small></h1></center><hr class="hr-skills">
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							HTML5
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        						</div>
-		        					</div>
+    	<!-- ABOUT ME -->
+    	<div class="container-fluid img-parallax parallax-window parallax-about-me" data-parallax="scroll" data-image-src="images/background-about-me.jpg" id="aboutme">
+            <div class="row">
+            	<div class="container">
+		            <hr class="hr-about-me">
+		            <h1 class="about-me-title"> ABOUT ME </h1>
+		            <hr class="hr-about-me">
+		        
+			        <div class="about-me-text">
+			            <p>Nowadays, I'm living in Seville but I was born in Linares (Jaén). I'm a Front-end and Back-end Web Developer (Full-stack). I’m focused on the world of programming which fascinates me, I would like to improve my skills as a Full-Stack Web Developer with Ruby on Rails.</p>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							CSS3
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        						</div>
-		        					</div>
+						<!-- EMERGYA -->
+						<a class="about-me-emergya-a" href="http://www.emergya.es">
+			            <div class="media about-me-box about-me-emergya">
+						  <div class="media-left media-middle">
+						      <img class="media-object logo-emergya" src="images/logo-emergya.png" alt="logo-emergya">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading"><strong>Emergya Ingeniería SL <i>(November 2015 - Present)</i></strong></h4>
+						    	<hr class="hr-about-me-emergya">
+						    	<p>I'm developing plugins for a project management web application (Redmine), updating plugins and migrating them to latest versions of Redmine using Ruby on Rails framework.</p>
+						  </div>
+						</div>
+						</a>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							Bootstrap
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
+			            <!-- IRONHACK -->
+			            <a class="about-me-ironhack-a" href="https://www.ironhack.com/es">
+			            <div class="media about-me-box about-me-ironhack">
+						  <div class="media-left media-middle">
+						      <img class="media-object logo-ironhack" src="images/logo-ironhack.png" alt="logo-ironhack">
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading"><strong>Ironhack <i>(April 2015 - June 2015)</i></strong></h4>
+						    	<hr class="hr-about-me-ironhack">
+						    	I have participated in the <strong>Ironhack</strong> bootcamp in Madrid organized by McKinsey Generation Social Initiative Spain where I learned and improved my skills in technologies such as HTML5, CSS3, Bootstrap, Javascript, JQuery, Ruby, Ruby on Rails, among others.
+						  </div>
+						</div>
+						</a>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							Javascript
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							JQuery
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
-		        		</div>
-		        		<div class="col-lg-4 col-lg-offset-2">
-		        				<center><h1><small>Back-end</small></h1></center><hr class="hr-skills">
-			        				<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							Ruby
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
+			        </div>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-5 col-md-5">
-		        							Ruby on Rails
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
+	            </div>
+            </div>
+    	</div>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							PHP
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
+    	<!-- PARALLAX QUOTE FRANK OCEAN -->
+    	<div class="container-fluid img-parallax parallax-window-quote" data-parallax="scroll" data-image-src="images/background-me.png">
+    		<div class="row">
+	    		<blockquote class="container quote-frank-ocean">
+				  <p>Work hard in silence, let your success be your noise.</p>
+				  <footer><cite title="Frank Ocean">Frank Ocean</cite></footer>
+				</blockquote>
+			</div>
+    	</div>
 
-		        					<div class="row centrado">
-		        						<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
-		        							MySQL
-		        						</div>
-		        						<div class="col-sm-6 col-md-6">
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        							<span class="glyphicon glyphicon-star-empty"></span>
-		        						</div>
-		        					</div>
-		        		</div>
-		        	</div>
+    	<!-- PARALLAX SKILLS -->
+    	<div class="container-fluid img-parallax parallax-window parallax-skills" data-parallax="scroll" data-image-src="images/background-header.jpg" id="skills">
+    		<div class="row">
+	    		<div class="container">
+			            <hr class="hr-skills">
+			            <h1 class="skills-title"> SKILLS </h1>
+			            <hr class="hr-skills">
+				</div>
+			</div>
 
-		        	<div class="row centrado" id="skills-text">
-		        		<div class="col-lg-12">
-		        		<center><h1><small>Others</small></h1></center>
-		        			AJAX, JSON, API's, Java, C++, Visual Studio, Git, Github.
-		        		</div>
-		        	</div>
-		        </div>
-		    </div>
-		    <hr class="hr-skills">
-		</div>
-		<!-- Fon de Sección Skills -->
+			<div class="row-fluid">
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-html.png"/>
+					<p class="logo-title">HTML5</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-css" src="images/logo-css.png"/>
+					<p class="logo-title">CSS3</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-js" src="images/logo-js.png"/>
+					<p class="logo-title">JAVASCRIPT</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-jquery.png"/>
+					<p class="logo-title">JQUERY</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-bootstrap.png"/>
+					<p class="logo-title">BOOTSTRAP</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-sass.png"/>
+					<p class="logo-title">SASS</p>
+				</div>
+			</div>
 
-		<!-- Sección Achievements -->
-		<div class="container-fluid" id="achievements">
-		    <hr>
-		    <div class="row">
-		        <div class="col-lg-12">
-		        	<h3 class="centrado">ACHIEVEMENTS</h3>
-		        	<div class="col-md-5">
-		        		<img class="img img-responsive" width="350px" src="img/achievement.jpg" alt="ironhackManu" id="centrarImg">
-		        	</div>
-		        	<div class="col-md-6">
-			            <h4 class="text-justify aboutme"><p>I have recently graduated from Ironhack's Web Development Bootcamp (an intensive 12-weeks course). This Bootcamp was also organized by McKinsey Social Initiative. I learned about HTML5, CSS3, Javascript, JQuery, Bootstrap, Ruby and Ruby on Rails, and improved my skills as a developer.</p>
+			<div class="row-fluid">
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-ruby.png"/>
+					<p class="logo-title">RUBY</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-rails" src="images/logo-rails.png"/>
+					<p class="logo-title">RUBY ON RAILS</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-github.png"/>
+					<p class="logo-title">GITHUB</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-mysql.png"/>
+					<p class="logo-title">MYSQL</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-postgresql.png"/>
+					<p class="logo-title">POSTGRESQL</p>
+				</div>
+				<div class="div-logo col-xs-4 col-md-2">
+					<img class="logo-standard" src="images/logo-mongodb.png"/>
+					<p class="logo-title">MONGODB</p>
+				</div>
+			</div>
+    	</div>
 
-			           	<p>During the last 4 weeks, I developed a Web based project called "Keep Running" with Ruby on Rails. At the end of the Bootcamp, all the students presented their projects. I have been awarded "Best project" due to my effort throughout the bootcamp.</p></h4>
-		           </div>
-		        </div>
-		    </div>
+    	<!-- PARALLAX PROJECTS -->
+    	<div class="container-fluid img-parallax parallax-window parallax-projects" data-parallax="scroll" data-image-src="images/background-projects.jpg" id="projects">
+    		<div class="row">
+	    		<div class="container">
+			            <hr class="hr-projects">
+			            <h1 class="projects-title"> PROJECTS </h1>
+			            <hr class="hr-projects">
+				</div>
+			</div>
 
-		    <div class="row">
-		        <div class="col-lg-12">
-		        	<div class="col-md-5">
-		        		<br>
-		        		<img class="img img-responsive" width="350px" src="img/project.png" alt="imgKeepRunning" id="centrarImg">
-		        	</div>
-		        	<div class="col-md-6">
-			            <h4 class="text-justify aboutme"><p>"Keep Running" was created in one month and launched in June 2015.</p><p>This is an web application targeted to runners, experts and beginners. The web app lets you choose among different running paths in several cities. Once you have selected a path, the app shows the route details and information such as terrain elevation and weather. "Keep Running" is also a gamified app to keep runners motivated: different experience levels, increased when the user marks running paths as done, rankings of users, and different leagues in which you could be promoted depending on your experience level.</p>
-</h4>
-		           </div>
-		        </div>
-		    </div>
-		    <hr>
-		</div>
-		<!-- Fon de Sección Achievements -->
+			<section class="no-padding" id="portfolio">
+			        <div class="container-fluid">
+			            <div class="row no-gutter popup-gallery">
+			                <div class="col-lg-4 col-sm-6">
+			                    <a href="" class="portfolio-box">
+			                        <img src="images/coming-soon.jpg" class="img-responsive" alt="">
+			                        <div class="portfolio-box-caption">
+			                            <div class="portfolio-box-caption-content">
+			                                <div class="project-category text-faded">
+			                                    Category
+			                                </div>
+			                                <div class="project-name">
+			                                    KEEP RUNNING
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </a>
+			                </div>
+			                <div class="col-lg-4 col-sm-6">
+			                    <a href="" class="portfolio-box">
+			                        <img src="images/coming-soon.jpg" class="img-responsive" alt="">
+			                        <div class="portfolio-box-caption">
+			                            <div class="portfolio-box-caption-content">
+			                                <div class="project-category text-faded">
+			                                    Category
+			                                </div>
+			                                <div class="project-name">
+			                                    JOBS ON RAILS
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </a>
+			                </div>
+			                <div class="col-lg-4 col-sm-6">
+			                    <a href="" class="portfolio-box">
+			                        <img src="images/coming-soon.jpg" class="img-responsive" alt="">
+			                        <div class="portfolio-box-caption">
+			                            <div class="portfolio-box-caption-content">
+			                                <div class="project-category text-faded">
+			                                    Category
+			                                </div>
+			                                <div class="project-name">
+			                                    Coming soon
+			                                </div>
+			                            </div>
+			                        </div>
+			                    </a>
+			                </div>
+			 
+			            </div>
+			        </div>
+			    </section>
+    	</div>
 
-		<!--- Sección de Contacto -->
-		<div class="container-fluid" id="skills">
-		    <hr class="hr-skills">
-		    <h1 id="contact" class="title centrado">Contact</h1>
-		    <div class="row centrado">
-		    	<a href="https://twitter.com/manuel_abalos" target="_blank">
+    	<!-- CONTACT -->
+    	<div class="container-fluid container-contact" id="contact">
+    		<div class="row">
+	    		<div class="container">
+			            <hr class="hr-contact">
+			            <h1 class="contact-title"> CONTACT </h1>
+			            <hr class="hr-contact">
+				</div>
+			</div>
+
+		    <div class="row-fluid center-contact">
 		        <div class="col-md-4 col-sm-4">
-		            <img class="img img-circle" width="140px" src="img/twitter-logo.png" alt="---">
-		            <h4>Twitter</h4>
+		            <img class="img img-circle" width="140px" src="images/photo-manu.jpg" alt="photo Manu">
+		            <h4 class="title-contact-h4">Manuel Ábalos Serrano</h4>
+		            <p>Front-end and Back-end Web Developer.</p>
 		        </div>
-		    	</a>
 		        <a href="https://github.com/manuabalos" target="_blank">
 		        <div class="col-md-4 col-sm-4">
-		            <img class="img" width="140px" src="img/github-logo.png" alt="Ruby on Rails icon">
-		            <h4>Github</h4>
+		            <img class="img" width="140px" src="images/logo-github.png" alt="logo github">
+		            <h4 class="title-contact-h4">Github</h4>
+		            <p>Accede a mis proyectos realizados.</p>
 		        </div>
 		        </a>
 		         <a href="https://es.linkedin.com/in/manuelabalos" target="_blank">
 		        <div class="col-md-4 col-sm-4">
-		            <img class="img img-circle" width="138px" src="img/linkedin-logo.png" alt="---">
-		            <h4>LinkedIn</h4>
+		            <img class="img img-circle" width="138px" src="images/logo-linkedin.png" alt="logo LinkedIn">
+		            <h4 class="title-contact-h4">LinkedIn</h4>
+		            <p>Accede a mi perfil de LinkedIn.</p>
 		        </div>
 		        </a>
 		    </div>
-		    <hr class="hr-skills">
-		</div>
+    	</div>
 
-      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	  <script type="text/javascript" src="script.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+	    <script src="javascripts/jquery.min.js"></script>
+	    <script src="javascripts/parallax.js"></script>
+	    <script src="javascripts/index.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
