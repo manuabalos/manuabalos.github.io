@@ -248,6 +248,10 @@ a, a:link, a:hover, a:visited, a.about-me-ironhack-a:hover, a.about-me-emergya-a
 	margin-right: 5px;
 }
 
+div.portfolio-box-caption{
+	max-height: 221.8px !important;
+}
+
 
 /* CONTACT */
 .container-contact{
