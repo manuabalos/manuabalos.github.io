@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 /* GENERAL */
 .parallax-window {
@@ -41,33 +42,47 @@ a, a:link, a:hover, a:visited, a.about-me-ironhack-a:hover, a.about-me-emergya-a
 
 .header{
 	min-height: 640px;
+	height: 100vh;
 }
 
 .header-center{
 	width: 100%;
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 7vh;
 	color: white;
 	display: none;
 }
 
 .header-title{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 60px;
+	font-size: 7vh;
 	font-weight: bold;
 	letter-spacing: 5px;
 }
 
 .header-text{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	font-style: italic;
+	font-size: 3vh;
+}
+
+.header-text > small {
 	color: white;
 	letter-spacing: 2px;
 }
 
 .header-text-name{
-	font-size: 24px;
+	font-size: 7vh;
+}
+
+.header-text-description{
+	font-style: italic;
+	font-size: 2.5vh;
+}
+
+.text-ruby-on-rails{
+	font-family: 'Indie Flower', cursive;
+	letter-spacing: 1px;
+	font-size: 12vh;
 }
 
 #header-btn{
@@ -84,7 +99,8 @@ a, a:link, a:hover, a:visited, a.about-me-ironhack-a:hover, a.about-me-emergya-a
 }
 
 .img-photo-manu{
-	width:220px;
+	width:35vh;
+	margin-bottom: 5vh;
 }
 
 /* PARALLAX - ABOUT ME */
