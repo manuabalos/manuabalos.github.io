@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:700');
 
 /* GENERAL */
 .parallax-window {
@@ -80,7 +80,7 @@ a, a:link, a:hover, a:visited, a.about-me-ironhack-a:hover, a.about-me-emergya-a
 }
 
 .text-ruby-on-rails{
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Cabin Sketch', cursive;
 	letter-spacing: 1px;
 	font-size: 12vh;
 }
@@ -88,10 +88,14 @@ a, a:link, a:hover, a:visited, a.about-me-ironhack-a:hover, a.about-me-emergya-a
 #header-btn{
 	background-color: transparent;
 	color: white;
-	width: 200px;
+	width: 20vw;
+	height: 5vh;
 	border-radius: 0px;
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 2%;
+	font-weight: 300;
+	font-size: 2vh;
+	margin-top: 5vh;
+	letter-spacing: 1.5px;
 }
 
 #header-btn:hover{
